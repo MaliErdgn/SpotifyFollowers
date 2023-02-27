@@ -9,8 +9,8 @@ driver = webdriver.Chrome(service=s)
 
 driver.get("https://accounts.spotify.com/tr/login")
 
-mail = driver.find_element(By.ID, "login-username")
-mail.send_keys("memokingxd6879")
+username = driver.find_element(By.ID, "login-username")
+username.send_keys("memokingxd6879")
 
 password = driver.find_element(By.ID, "login-password")
 password.send_keys("SpotifyBot")

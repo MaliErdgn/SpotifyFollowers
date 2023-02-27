@@ -51,5 +51,5 @@ for following in followingWeb: # iterate through the followings web elements to 
 notFollowingMeBack = [x for x in followings if x not in followers] #Checking if an element is in followings but not in followers (They are not following me back)
 iDontFollowBack = [x for x in followers if x not in followings] #Checking if an element is in followers but not in followings (I am not following them back)
 
-print("Not following me back: " + str(notFollowingMeBack))
-print("I dont follow back: " + str(iDontFollowBack))
+print("Not following me back: " + str(notFollowingMeBack)) #Return the people who dont follow back
+print("I dont follow back: " + str(iDontFollowBack)) #Return the people who I dont follow back
